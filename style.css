@@ -1,0 +1,47 @@
+body{
+    background-color: lightskyblue !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-group input{
+    border: none;
+}
+
+.card{
+    background-color: rgb(240, 239, 239) !important;
+    border-radius: 10px !important;
+}
+
+.form-group{
+    background-color: white;
+    border-radius: 10px;
+    border: none !important;
+   
+}
+
+.form-group i,
+.form-group input ::placeholder,
+p{
+    color: #adb5bd !important;
+}
+
+.form-group input:focus,
+.form-group input:active{
+     box-shadow: none;
+}
+
+.btn{
+
+    border-color: blue!important;
+}
+
+.btn:focus,
+.btn:active{
+    box-shadow: none !important;
+}
+
+.btn:hover{
+    transform: translateY(-1px);
+}
